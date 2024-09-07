@@ -1,0 +1,41 @@
+body {
+    background: url('https://i.pinimg.com/originals/44/d5/cd/44d5cdbfd657e791f250d3e7931e10a4.webp') no-repeat center center fixed; 
+    background-size: cover;
+    color: rgb(98, 0, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #f7feff;
+}
+
+canvas {
+    background-color: #007488;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #13efff;
+}
+
+.controls {
+    margin: 20px 0;
+    color: #00ffff;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+p {
+    color: #000000;
+    margin-top: 20px;
+}
+
+canvas.grid {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+}
